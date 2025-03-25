@@ -15,7 +15,25 @@ body{
 header{
     padding: 20px 0;
     text-align: center;
-    background-color: #311f72;
+    background-color: #19181b;
     color: #fff;
 }
 
+header img{
+    width:10%; 
+    height:10%; 
+    border-radius:80%;
+}
+
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid rgb(199, 112, 216);
+    font-size: 16px;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: white;
+}
+
+
+/* https: //uiverse.io/ernestnash/cold-turtle-83 */
