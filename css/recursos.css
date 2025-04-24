@@ -9,7 +9,19 @@ body{
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    
+    margin: 0;
+    padding: 0;
+   
+}
+
+footer{
+   position: fixed;
+   left: 0;
+   right: 0;
+   width: 100%;
+   background-color: #353333cc;
+   text-align: center;
+   color: #fff;
 }
 
 header{
@@ -19,21 +31,40 @@ header{
     color: #fff;
 }
 
-header img{
-    width:10%; 
-    height:10%; 
+body img{
+    width:20%; 
+    height: 20%; 
     border-radius:80%;
+    float: left;
 }
 
-
-button{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 3px solid rgb(199, 112, 216);
+button {
+    padding: 10px 20px;
     font-size: 16px;
-    padding: 1rem 2rem;
-    background-color: transparent;
-    color: white;
+    font-weight: bold;
+    color: #fff;
+    background-color: #19181b;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #fff;
+    color: #19181b;
+    border-color: #19181b;
+}
+
+button:active {
+    transform: scale(0.95);
+    /* Efeito de clique */
+    background-color: #353333;
+    border-color: #fff;
 }
 
 
+/*botão ligth;dark
+/*botao trocar idioma
 /* https: //uiverse.io/ernestnash/cold-turtle-83 */
