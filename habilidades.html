@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="Stylesheet" href="css/recursos.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    
+    <div class="perfil">
+        
+        <perfil-img>
+            <img src="recursos/perfil.jpg" alt="Imagem de perfil" class="perfil-img" />
+        </perfil-img>
+        
+        <ul>
+            <h1>Pedro Henrique</h1>
+            <h2>Engenheiro de Software</h2>
+        </ul>
+    
+        <container class="botao-container">
+            <a href="perfil.html" class="botao">Perfil.</a>
+            <a href="habilidades.html" class="botao">Habilidades.</a>
+            <a href="projetos.html" class="botao">Projetos.</a>
+        </container>
+
+    </div>
+
+    <button class="botao tema-toggle" onclick="toggleTheme()">Alterar Tema</button>
+</body>
+
+<section class="texto-padrao">
+    <h2>Linguagens de Programação</h2>
+    <p>Java, Python, entre outras linguagens, dependendo do foco do curso e projetos pessoais.</p>
+
+    <h2>Banco de Dados</h2>
+    <p>Conhecimento básico em SQL (MySQL, PostgreSQL) e NoSQL (MongoDB).</p>
+
+    <h2>Versionamento de Código</h2>
+    <p>Experiência com Git e plataformas como GitHub, GitLab ou Bitbucket.</p>
+</section>
+
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle('light-mode');
+    }
+</script>
+
+<footer>
+    <p>&copy; Pedro Henrique.</p>
+</footer>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="Stylesheet" href="css/recursos.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    
+    <div class="perfil">
+        
+        <perfil-img>
+            <img src="recursos/perfil.jpg" alt="Imagem de perfil" class="perfil-img" />
+        </perfil-img>
+        
+        <ul>
+            <h1>Pedro Henrique</h1>
+            <h2>Engenheiro de Software</h2>
+        </ul>
+    
+        <container class="botao-container">
+            <a href="perfil.html" class="botao">Perfil.</a>
+            <a href="habilidades.html" class="botao">Habilidades.</a>
+            <a href="projetos.html" class="botao">Projetos.</a>
+        </container>
+
+    </div>
+
+    <button class="botao tema-toggle" onclick="toggleTheme()">Alterar Tema</button>
+</body>
+
+<div class="texto-padrao">
+    <h2>Organize-Se</h2>
+    <p>"Software de agenda digital para organização de compromissos, tarefas e lembretes, com notificações automáticas e sincronização em nuvem."</p>
+</div>
+
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle('light-mode');
+    }
+</script>
+
+<footer>
+    <p>&copy; Pedro Henrique.</p>
+</footer>
+
+</html>
